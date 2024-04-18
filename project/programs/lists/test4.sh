@@ -30,7 +30,7 @@ done < tasks.txt
 
 
 add_task() {
-	clear
+
 	if [ ${#todolist[@]} -ge 10 ]; then
         echo "your todo list is full"
     else
@@ -74,7 +74,7 @@ save_tasks() {
 
 
 remove_task() {
-	clear
+
 	if [ ${#todolist[@]} -eq 0 ]; then
 		echo "No tasks to remove"
 	else
